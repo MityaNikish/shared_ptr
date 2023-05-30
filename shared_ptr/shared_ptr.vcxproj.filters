@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest_mem_main.cpp">
+      <Filter>MemTest</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exception.hpp">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="shared.hpp">
+      <Filter>SharedPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{a27aaa40-4fd9-40ae-ae79-52a254cdbc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedPtr">
+      <UniqueIdentifier>{d41cedea-ae40-4927-b2bc-9ccff9c84853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemTest">
+      <UniqueIdentifier>{5b9b47b2-07f0-4db6-9f9c-f2f78728d21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{f56ec2ef-2304-4dc0-8923-b70bb767cbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{9f00fac6-5d47-46d0-93fe-bff486bf2175}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
